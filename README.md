@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# Ada Lovelace-projektet
+
+Ett Next.js-projekt som presenterar Ada Lovelaces liv och arbete, betraktad som världens första datorprogrammerare.
+
+## Struktur
+- **Hemsida**: Visar Ada Lovelaces klickbara namn.
+- **Porträtt**: Visar en bild och en kort beskrivning, klickbar för att gå till Om-sidan.
+- **Om**: Detaljer på svenska om Ada Lovelaces liv.
+
+## Teknologier
+- Next.js
+- Tailwind CSS
+- GitHub för versionskontroll
+
+## Installation
+1. Klona repot:
+   ```bash
+   git clone https://github.com/din-användarnamn/components-exercise.git
