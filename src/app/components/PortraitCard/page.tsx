@@ -6,14 +6,14 @@ export default function PortraitCard() {
     <Link href="/about">
       <div className="flex flex-col items-center p-4 border rounded-lg shadow-md hover:shadow-lg cursor-pointer">
         <Image
-          src="/images/ada_lovelace_portrait.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/256px-Ada_Lovelace_portrait.jpg?20130907213703"
           alt="Portrait of Ada Lovelace"
           width={300}
           height={300}
           className="rounded-full mb-4"
         />
         <p className="text-center text-gray-700">
-          Ada Lovelace è spesso considerata la prima programmatrice di computer.
+          Ada Lovelace.
         </p>
       </div>
     </Link>

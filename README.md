@@ -53,4 +53,4 @@ Ett Next.js-projekt som presenterar Ada Lovelaces liv och arbete, betraktad som 
 ## Installation
 1. Klona repot:
    ```bash
-   git clone https://github.com/din-användarnamn/components-exercise.git
+   git clone https://github.com/looziolooz/components-exercise.git

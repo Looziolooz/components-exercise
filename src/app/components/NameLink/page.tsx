@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function PortraitCard({
   src = '/images/ada_lovelace_portrait.jpg',
   alt = 'Portrait of Ada Lovelace',
-  description = 'Ada Lovelace è spesso considerata la prima programmatrice di computer.',
+  description = 'Ada Lovelace.',
 }) {
   return (
     <Link href="/about">

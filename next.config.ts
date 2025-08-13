@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from 'next';
+
+
+const nextConfig: NextConfig = {
   images: {
-    domains: ['upload.wikimedia.org'],
+    remotePatterns: [
+      {hostname: 'commons.wikimedia.org', pathname: '/wiki/File/**'},
+    ]
   },
 };
-module.exports = nextConfig;
+
+export default nextConfig;
