@@ -2,12 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function PortraitCard({
-  src = '/images/ada_lovelace_portrait.jpg',
+  src = '/public/ada_lovelace_portrait.jpg',
   alt = 'Portrait of Ada Lovelace',
   description = 'Ada Lovelace.',
 }) {
   return (
-    <Link href="/about">
+    <Link href="/about">git
       <div className="flex flex-col items-center p-6 border rounded-lg shadow-md hover:shadow-lg cursor-pointer bg-white">
         <Image
           src={src}
